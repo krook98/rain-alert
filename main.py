@@ -7,6 +7,7 @@ from twilio.http.http_client import TwilioHttpClient
 API_KEY = os.environ.get('API_KEY')
 URL = 'https://api.openweathermap.org/data/2.5/onecall'
 PHONE_NUMBER = os.environ.get("PHONE_NUMBER")
+NOTIFICATION_NUMBER = os.environ.get("NOTIFICATION_NUMBER")
 LAT = 52.229675
 LON = 21.012230
 EXCLUDE = "current,minutely,daily"
